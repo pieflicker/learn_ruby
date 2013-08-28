@@ -34,8 +34,7 @@
 		array1.map! do |str| 
 			if str != "and" && str != "the" && str != "over"
 				str.capitalize
-			else
-				str = str
+D				str = str
 			end
 
 		end

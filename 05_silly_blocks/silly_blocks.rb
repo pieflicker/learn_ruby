@@ -1,4 +1,6 @@
 
 def reverser
-     yield.reverse
+     yield
+     array = [yield]
+     array.to_s.reverse
 end
